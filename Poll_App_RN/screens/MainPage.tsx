@@ -64,6 +64,9 @@ const MainPage = ({navigation}: any) => {
   );
   return (
     <SafeAreaView>
+      <Text style={{fontWeight: '500', marginVertical: 10}}>
+        An application which calls an api every 10 secs
+      </Text>
       <View style={styles.headerContainer}>
         <Text style={styles.headerItem}>URL</Text>
         <Text style={styles.headerItem}>Title</Text>
