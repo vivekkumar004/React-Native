@@ -39,7 +39,7 @@ const Asteroid_details = ({route}: any) => {
   React.useLayoutEffect(() => {
     axios
       .get(
-        `https://api.nasa.gov/neo/rest/v1/neo/${asteroidId}?api_key=EMoWGbG8PNnmasNbI0XbwMiYxfWq2OcpM8AfRcBt`,
+        `https://api.nasa.gov/neo/rest/v1/neo/${asteroidId}?api_key=rootmeinhai`,
       )
       .then((response: any) => handleResponse(response.data))
       .catch(() => setError(true));
